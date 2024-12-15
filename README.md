@@ -1,4 +1,5 @@
 Introduction:
+
 Emotion detection of tweets using Neural Networks
 The problem we have chosen to research is that of emotion detection and classification of text, specifically tweets from Twitter (X). Being able to analyze this informal language has become important for understanding public thoughts. Working with classification of tweets is a particularly interesting challenge, due to tweets being limited to only 280 characters and often containing words that are slang or informal. Thus the issue of classifying tweets into emotions with such few characters is one presenting unique challenges.
 Neural networks are able to perform well on data with nonlinear relationships, thus have shown great promise in text classification tasks. This study will focus on the use of neural networks to classify emotions in tweets, comparing the performance of Convolutional Neural Networks (CNNs), Artificial Neural Networks (ANNs), and Recurrent Neural Networks (RNN). CNNs have proven to be useful when attempting to capture local patterns and relationships through convolutional layers, and are commonly used in image classification (9). ANNs excel with mathematically complex challenges, and perform best on simpler classification problems. RNNs are popularly used in more complex problems and in Natural Language Processing (2).
@@ -40,14 +41,23 @@ In contrast, our ANN - often used for simpler classification tasks - underperfor
 Our RNN, used commonly in problems that depend on sequential data, achieved the highest accuracy - 92.22%. However, it had the longest execution time of the 3 models, at 513 seconds. In choosing a model to deploy, it is important to consider the trade-offs that come with a model with high accuracy but increased computational complexity.
 Future work could explore approaches that combine the strengths of different models, as the SENN study did by combining a LSTM-RNN with a CNN. Additionally, future work could experiment with more sophisticated models, like transformers, to see if they would yield even higher emotion classification accuracy.
 
- References
+References:
+
 (1) “Emotion Dataset for Emotion Recognition Tasks | Kaggle.” Kaggle: Your Machine Learning and Data Science Community, https://www.kaggle.com/datasets/parulpandey/emotion-dataset. Accessed 8 Aug. 2024.
+
 (2) “ANN vs CNN vs RNN: Neural Networks Guide.” Levity | Streamline Your Freight Email Operations with AI Automation, https://levity.ai/blog/neural-networks-cnn-ann-rnn#:~:text=ANNs%20(Artificial%20Neural %20Networks)%20are,proficient%20in%20Natural%20Language%20Processing
+
 (3) Elvis Saravia, Hsien-Chi Toby Liu, Yen-Hao Huang, Junlin Wu, and Yi-Shin Chen. 2018. CARER: Contextualized Affect Representations for Emotion Recognition. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 3687–3697, Brussels, Belgium. Association for Computational Linguistics
+
 (4) E. Batbaatar, M. Li and K. H. Ryu, "Semantic-Emotion Neural Network for Emotion Recognition From Text," in IEEE Access, vol. 7, pp. 111866-111878, 2019, doi: 10.1109/ACCESS.2019.2934529.
+
 (5) Shrivastava, Kush, Shishir Kumar, and Deepak Kumar Jain. "An effective approach for emotion detection in multimedia text data using sequence based convolutional neural network." Multimedia tools and applications 78 (2019): 29607-29639.
+
 (6) “Learn FluCoMa.” Learn FluCoMa, https://learn.flucoma.org/learn/mlp-parameters/. Accessed 8 Aug. 2024.
+
 (7) Kumawat, Tejpal. “Deep Learning Part 3: Parameter Initialization, BackPropagation, and Types of Error Involved | by Tejpal Kumawat | Medium.” Medium, Medium, 3 May 2023, https://medium.com/@tejpal.abhyuday/deep-learning-part-3-parameter-initialization-back propagation-and-types-of-error-involved-6aa4f4e589bb.
+
 (8) Seyeditabari et al.2018] Armin Seyeditabari, Sara Levens, Cherie D Maestas, Samira Shaikh, James Igoe Walsh, Wlodek Zadrozny, Christina Danis, and Onah P Thompson. 2018. Cross corpus emotion classification using survey data.
+
 (9) Organization, North American Geoscientists. “Delving into Convolutional Neural Networks (CNNs): Structure, Application, Limitations | by North American Geoscientists Organization | Medium.” Medium, Medium, 8 July 2023, https://medium.com/@northamericangeoscientistsorg/delving-into-convolutional-neural-n etworks-cnns-structure-application-limitations-49d3d95035ce.
   
